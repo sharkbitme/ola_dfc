@@ -1,7 +1,9 @@
 Draw Force Curve measuring Device based on the sparkfun OpenLog Artemis board, the NAU7802 Load Cell Amplifier, and VL53L1X Infrared Distance sensor
 
 Openlog Artemis: https://www.sparkfun.com/products/16832
+
 Load Cell Amp: https://www.sparkfun.com/products/15242
+
 Infrared Distance Sensor: https://www.sparkfun.com/products/14722
 
 
