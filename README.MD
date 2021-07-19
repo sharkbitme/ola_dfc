@@ -4,11 +4,15 @@
 
 Openlog Artemis: https://www.sparkfun.com/products/16832
 
+(testing the redboard artemis nano board as a more cost effective measure is going to be underway soon)
+
 Load Cell Amp: https://www.sparkfun.com/products/15242
 
 Infrared Distance Sensor: https://www.sparkfun.com/products/14722
 
 Also recommend the Qwiic cables from sparkfun or adafruits STEMMA QT cables
+
+# Wiring of the NAU7802 Load Cell Amplifier:
 
 
 #### firmware update/flashing
