@@ -20,15 +20,16 @@ extract and go to the "Artemis-Firmware-Upload-GUI-master" directory, then go in
 
 
 
-## SHORT TERM TODO:
-  add functionality to allow changing of the ROI/FOV and optical center in IR sensor menu
-  ranging fluctuation correction factor, look into the signal/sigma threshold settings outlined in the datasheet or custom code 
-  implement changes to read relative distance instead of absolute
+## SHORT TERM TODO
+* add functionality to allow changing of the ROI/FOV and optical center in IR sensor menu
+* ranging fluctuation correction factor, look into the signal/sigma threshold settings outlined in the datasheet
+* implement changes to read relative distance instead of absolute
+* test on Redboard artemis nano board for functionality
   
 ## MID TERM TODO:
- start working on a re-write or simplification of the code and structure, to make it easier to work with and add features
+* ????
  
  
 ## LONG TERM TODO:
-  ??????
+ * start working on a re-write or simplification of the code and structure, to make it easier to work with and add features
 
