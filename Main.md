@@ -20,15 +20,15 @@ extract and go to the "Artemis-Firmware-Upload-GUI-master" directory, then go in
 
 
 
-SHORT TERM TODO:
+## SHORT TERM TODO:
   add functionality to allow changing of the ROI/FOV and optical center in IR sensor menu
   ranging fluctuation correction factor, look into the signal/sigma threshold settings outlined in the datasheet or custom code 
   implement changes to read relative distance instead of absolute
   
-MID TERM TODO:
+## MID TERM TODO:
  start working on a re-write or simplification of the code and structure, to make it easier to work with and add features
  
  
-LONG TERM TODO:
+## LONG TERM TODO:
   ??????
 
