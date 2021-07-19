@@ -8,6 +8,8 @@ Load Cell Amp: https://www.sparkfun.com/products/15242
 
 Infrared Distance Sensor: https://www.sparkfun.com/products/14722
 
+Also recommend the Qwiic cables from sparkfun or adafruits STEMMA QT cables
+
 
 #### firmware update/flashing
 ##### have to do some more R&D on this area but easiest way is: 
