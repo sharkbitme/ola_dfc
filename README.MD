@@ -10,7 +10,7 @@ Load Cell Amp: https://www.sparkfun.com/products/15242
 
 Infrared Distance Sensor: https://www.sparkfun.com/products/14722
 
-Also recommend the Qwiic cables from sparkfun or adafruits STEMMA QT cables
+Also recommend the Qwiic cables from sparkfun or adafruit's STEMMA QT cables, 50mm cable length should be sufficient
 
 # Wiring of the NAU7802 Load Cell Amplifier:
 
