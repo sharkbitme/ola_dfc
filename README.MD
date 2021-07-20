@@ -15,6 +15,16 @@ Any loadcell that is capable of at minimum of 40 Kg (88 pounds) of force
 
 Also recommend the Qwiic cables from sparkfun or adafruit's STEMMA QT cables, 50mm cable length should be sufficient
 
+
+# OLA General Setup and overview
+General guide here: https://learn.sparkfun.com/tutorials/openlog-artemis-hookup-guide/introduction
+
+Arduino IDE setup: https://learn.sparkfun.com/tutorials/artemis-development-with-the-arduino-ide
+
+## One very important thing to note is when installing the Apollo3 board definitions, that you install version 1.2.1, there are known issues with higher versions that will cause compilation in the arduino IDE to fail
+
+There are a pretty large number of libraries that need to be installed, all are outlined with links to install the library in the `ola_dfc.ino` sketch, listed before the global variable declarations
+
 # Wiring of the NAU7802 Load Cell Amplifier:
 
 
