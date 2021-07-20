@@ -1,5 +1,6 @@
 # Draw Force Curve measuring Device
-### based on the sparkfun OpenLog Artemis board, the NAU7802 Load Cell Amplifier, and VL53L1X Infrared Distance sensor
+## Leveraging the Sparkfun OpenLog Artemis board, the NAU7802 Load Cell Amplifier, and VL53L1X Infrared Distance sensor
+### co-developed by Jake Kaminski and Tristan (@delivermyshark)
 ## Hardware:
 
 Openlog Artemis: https://www.sparkfun.com/products/16832
@@ -9,6 +10,8 @@ Openlog Artemis: https://www.sparkfun.com/products/16832
 Load Cell Amp: https://www.sparkfun.com/products/15242
 
 Infrared Distance Sensor: https://www.sparkfun.com/products/14722
+
+Any loadcell that is capable of at minimum of 40 Kg (88 pounds) of force 
 
 Also recommend the Qwiic cables from sparkfun or adafruit's STEMMA QT cables, 50mm cable length should be sufficient
 
