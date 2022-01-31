@@ -45,7 +45,7 @@ In [libraries/SparkFun_VL53L1X.cpp](https://github.com/sharkbitme/ola_dfc/blob/m
 
 ## Areas to change are:
 
-### Sensors.ino, Starting at Line 196 where the  
+### Sensors.ino, Starting at Line 196
 
 For example, added the following lines for debugging to make sure the ROI settings took correctly:
 
