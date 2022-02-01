@@ -1,6 +1,7 @@
 # Draw Force Curve measuring Device
 ## Leveraging the Sparkfun OpenLog Artemis board, the NAU7802 Load Cell Amplifier, and VL53L1X Infrared Distance sensor
 ### co-developed by Jake Kaminski and Tristan (@delivermyshark)
+https://www.youtube.com/watch?v=teMO9oCl4YE
 ## Hardware:
 
 Openlog Artemis: https://www.sparkfun.com/products/16832
@@ -92,8 +93,30 @@ Where the values of the new function get saved to NVM and/or SD card
 >            settingsFile.println((String)base + "y=" + nodeSetting->y);
 >            settingsFile.println((String)base + "opticalCenter=" + nodeSetting ->opticalCenter);
 
+line 900
+>             //add the logic to read the new settings/parameters from the SD card
+>          else if (strcmp(deviceSettingName, "x") == 0)
+>            nodeSetting->x = d;
+>          else if (strcmp(deviceSettingName, "y") == 0)
+>            nodeSetting->y = d;
+>          else if (strcmp(deviceSettingName, "opticalCenter") == 0)
+>            nodeSetting->opticalCenter = d;
 
+OLA.ino ~line 350 to add start prompt
 
+> 	  if (promptToStart == 1);
+>     {
+>      int choice = -1;
+>     Serial.println("press ENTER to when ready to keep some limb manufacturers honest :D .");
+>      while (choice == -1) {
+>       choice = Serial.read();
+>       switch (char(choice)) {
+>         case ' ':
+>           promptToStart = 0;
+>           break;
+>         }
+>       }
+>     }
 ## SHORT TERM TODO
 * add functionality to allow changing of the ROI/FOV and optical center in IR sensor menu
 * ranging fluctuation correction factor, look into the signal/sigma threshold settings outlined in the datasheet
